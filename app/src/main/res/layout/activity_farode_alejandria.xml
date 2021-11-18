@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplaya"
+    tools:context=".FarodeAlejandria">
+
+    <ImageView
+        android:id="@+id/imvw3"
+        android:layout_width="408dp"
+        android:layout_height="377dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.197"
+        app:srcCompat="@drawable/elfarodalejandriaaa" />
+
+    <TextView
+        android:id="@+id/txtv5"
+        android:layout_width="267dp"
+        android:layout_height="63dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="El faro de Alejandría"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvw3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/txtv6"
+        android:layout_width="364dp"
+        android:layout_height="207dp"
+        android:gravity="center"
+        android:text="El Faro de Alejandría fue una torre construida en el siglo III a. C. durante la dinastía ptolemaica, en el reinado de Ptolomeo II en la isla de Faro en Alejandría, Egipto, para servir como punto de referencia del puerto y como faro, con una altura estimada de al menos 100 metros."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvw3"
+        app:layout_constraintVertical_bias="0.189" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

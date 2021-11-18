@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplaya"
+    tools:context=".Colosoderodas">
+
+    <ImageView
+        android:id="@+id/imvw1"
+        android:layout_width="381dp"
+        android:layout_height="363dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247"
+        app:srcCompat="@drawable/elcolosoderodas" />
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="267dp"
+        android:layout_height="63dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="El coloso de Rodas"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvw1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="350dp"
+        android:layout_height="182dp"
+        android:gravity="center"
+        android:text="El coloso de Rodas era una gran estatua del dios sol griego Helios, realizada por el escultor Cares de Lindos en la isla de Rodas en 280 a. C. y destruida por un terremoto en 226 a. C. Es considerada una de las Siete maravillas del mundo antiguo.​"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvw1"
+        app:layout_constraintVertical_bias="0.189" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_artesania.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_chichenitza.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_ciudadde_petra.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_coliseoromano.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_colosoderodas.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_cristoredentor.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_estatuade_zeus.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_farode_alejandria.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_jardinesde_babilonia.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_machupicchu.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_maps_go_antiguas.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_maps_go_modernas.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_maravillasantiguas.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_maravillasmodernas.xml" value="0.25" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_mausoleo.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_moray.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_murallachina.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_piramidede_giza.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_plazadearmas.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_saqsaywaman.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_splash.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_tajmahal.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_templode_artemiza.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/USUARIO/AndroidStudioProjects/TareitaGrupalconMapas/app/src/main/res/layout/activity_turistea_cusco.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

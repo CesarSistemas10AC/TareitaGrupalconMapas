@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondogoku"
+    tools:context=".Cristoredentor">
+
+    <ImageView
+        android:id="@+id/imvw9"
+        android:layout_width="405dp"
+        android:layout_height="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247"
+        app:srcCompat="@drawable/elcristoredentor"/>
+
+    <TextView
+        android:id="@+id/txtv17"
+        android:layout_width="277dp"
+        android:layout_height="75dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Cristo Redentor"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvw9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/txt18"
+        android:layout_width="369dp"
+        android:layout_height="214dp"
+        android:gravity="center"
+        android:text="El día 7 de julio de 2007, el Cristo Redentor de Río de Janeiro, ubicado en la cima del cerro Corcovado, fue nombrado como una de las Siete Maravillas del Mundo Moderno a través de una votación abierta en Internet en la que participaron 100 millones de personas."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvw9"
+        app:layout_constraintVertical_bias="0.189" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

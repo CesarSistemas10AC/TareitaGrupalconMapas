@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoplaya"
+    tools:context=".Mausoleo">
+
+    <ImageView
+        android:id="@+id/imvw5"
+        android:layout_width="410dp"
+        android:layout_height="365dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.247"
+        app:srcCompat="@drawable/elmausoleo" />
+
+    <TextView
+        android:id="@+id/txtv9"
+        android:layout_width="288dp"
+        android:layout_height="76dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="El mausoleo de Halicarnaso"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imvw5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
+
+    <TextView
+        android:id="@+id/txt10"
+        android:layout_width="374dp"
+        android:layout_height="258dp"
+        android:gravity="center"
+        android:text="El Mausoleo de Halicarnaso o el Sepulcro de Mausolo fue un monumento funerario suntuoso construido entre el año 353 a. C. y el 350 a. C.1​ en Halicarnaso (actualmente Bodrum, Turquía) para Mausolo, un sátrapa del Imperio persa. La estructura fue encargada por su esposa y hermana, Artemisia II de Caria, a los arquitectos griegos Sátiro de Paros y Piteo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imvw5"
+        app:layout_constraintVertical_bias="0.189" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

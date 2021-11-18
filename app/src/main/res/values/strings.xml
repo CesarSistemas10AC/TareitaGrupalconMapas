@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TareitaGrupalconMapas</string>
+    <string name="title_activity_maps_go">MapsActivityGo</string>
+    <string name="title_activity_maps_go_modernas">MapsActivityGoModernas</string>
+    <string name="title_activity_maps_go_antiguas">MapsActivityGoAntiguas</string>
+</resources>

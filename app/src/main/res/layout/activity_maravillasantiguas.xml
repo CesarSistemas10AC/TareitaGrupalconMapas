@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondito"
+    tools:context=".Maravillasantiguas">
+
+    <TextView
+        android:id="@+id/txtvw2"
+        android:layout_width="326dp"
+        android:layout_height="101dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Las Maravillas del Mundo Antiguo"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/txtvw3"
+        android:layout_width="389dp"
+        android:layout_height="239dp"
+        android:gravity="center"
+        android:text="Aqui encontrarás las maravillas del mundo antiguo, lo que fueron antes una maravilla para el ojo humano, ahora son destrucciones ocasionadas por el propio humano, pero para darte un poco de historia las reviviremos aqui, ve y escoge algunas de las que desees visualizar, te recomendamos verlas todas, ve y revive la antigüedad"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw2"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <ImageButton
+        android:id="@+id/imgbtncoloso"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.368"
+        app:srcCompat="@drawable/colosoderodas" />
+
+    <ImageButton
+        android:id="@+id/imgbtnfaro"
+        android:layout_width="86dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.375"
+        app:srcCompat="@drawable/elfarodealejandria" />
+
+    <ImageButton
+        android:id="@+id/imgbtnzeus"
+        android:layout_width="79dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.37"
+        app:srcCompat="@drawable/estatuadezeus" />
+
+    <ImageButton
+        android:id="@+id/imgbtnjardines"
+        android:layout_width="96dp"
+        android:layout_height="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtncoloso"
+        app:layout_constraintVertical_bias="0.219"
+        app:srcCompat="@drawable/jardinesdebabilonia" />
+
+    <ImageButton
+        android:id="@+id/imgbtnmausoleo"
+        android:layout_width="91dp"
+        android:layout_height="74dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnfaro"
+        app:layout_constraintVertical_bias="0.078"
+        app:srcCompat="@drawable/mausoleodehalicarnaso" />
+
+    <ImageButton
+        android:id="@+id/imgbtntemplo"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnzeus"
+        app:layout_constraintVertical_bias="0.216"
+        app:srcCompat="@drawable/templodeartemiza" />
+
+    <ImageButton
+        android:id="@+id/imgbtnpiramidegiza"
+        android:layout_width="86dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/piramidedegiza" />
+
+    <Button
+        android:id="@+id/btnMaravillasAntiguas"
+        android:layout_width="273dp"
+        android:layout_height="70dp"
+        android:text="Observa donde estuvieron las maravillas antiguas y sus restos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgbtnmausoleo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondito"
+    tools:context=".Maravillasmodernas">
+
+    <TextView
+        android:id="@+id/txtvw2"
+        android:layout_width="326dp"
+        android:layout_height="101dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Las Maravillas del Mundo Moderno"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/txtvw3"
+        android:layout_width="389dp"
+        android:layout_height="239dp"
+        android:gravity="center"
+        android:text="En este apartado verás las 7 maravillas del mundo modernos, las cuales se ubican en distintos países, donde podras encontrar las maravillas actuales que conocemos hoy en día y que pertudaron desde hace mucho tiempo pero que son tan grandes y duraderas que ni el tiempo pudo acabar con ellas, empieza tu viaje aqui y mira cada una de ellas con nosotros, viaja ya!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw2"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageButton
+        android:id="@+id/imgbtcristo"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@drawable/cristorey" />
+
+    <ImageButton
+        android:id="@+id/imgbtmachupicchu"
+        android:layout_width="86dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.419"
+        app:srcCompat="@drawable/machupicchu" />
+
+    <ImageButton
+        android:id="@+id/imgbttajmahal"
+        android:layout_width="79dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.414"
+        app:srcCompat="@drawable/tajmahal" />
+
+    <ImageButton
+        android:id="@+id/imgbtmurallachina"
+        android:layout_width="96dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lagranmurallachina" />
+
+    <ImageButton
+        android:id="@+id/imgbt5piramidechichenitza"
+        android:layout_width="91dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/piramidedechichenitza" />
+
+    <ImageButton
+        android:id="@+id/imgbtcoliseo"
+        android:layout_width="82dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/coliseoromano" />
+
+    <ImageButton
+        android:id="@+id/imgbtpetra"
+        android:layout_width="86dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.057"
+        app:srcCompat="@drawable/ciudaddepetra" />
+
+    <Button
+        android:id="@+id/btnMaravillasModernas"
+        android:layout_width="276dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="4dp"
+        android:text="Vea las maravillas del mundo en el Mapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

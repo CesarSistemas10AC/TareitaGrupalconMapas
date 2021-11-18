@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondito"
+    tools:context=".TuristeaCusco">
+
+    <TextView
+        android:id="@+id/txtvw2"
+        android:layout_width="326dp"
+        android:layout_height="101dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Lugares Turísticos del Cusco"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/txtvw3"
+        android:layout_width="389dp"
+        android:layout_height="239dp"
+        android:gravity="center"
+        android:text="Ve y date un paseo por las zonas turísticas de la región del Cusco, empezando por una de las maravillasd el mundo moderno hasta terminar en el origen del tawantinsuyo, estos lugares son míticas y sabemos que te va a encantar solo tienes que dejar correr tu imaginación y gusto por la historia, ve y diviertete conociendo al Cusco!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw2"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <ImageButton
+        android:id="@+id/imbtartesania"
+        android:layout_width="94dp"
+        android:layout_height="73dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.307"
+        app:srcCompat="@drawable/cuscoartesania" />
+
+    <ImageButton
+        android:id="@+id/imbtplaza"
+        android:layout_width="86dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.101"
+        app:srcCompat="@drawable/cuscocatedral" />
+
+    <ImageButton
+        android:id="@+id/imbtmachu"
+        android:layout_width="79dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtvw3"
+        app:layout_constraintVertical_bias="0.301"
+        app:srcCompat="@drawable/cuscomachupicchu" />
+
+    <ImageButton
+        android:id="@+id/imbtmoray"
+        android:layout_width="96dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cuscomoray" />
+
+    <ImageButton
+        android:id="@+id/imbtsaqsaywaman"
+        android:layout_width="84dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cuscosaqsaywaman" />
+
+    <Button
+        android:id="@+id/btnCuscomapa"
+        android:layout_width="206dp"
+        android:layout_height="51dp"
+        android:text="Encuentra las zonas en el mapa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imbtplaza"
+        app:layout_constraintVertical_bias="0.901" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

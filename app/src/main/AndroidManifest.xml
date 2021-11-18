@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tareitagrupalconmapas">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCEPT_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TareitaGrupalconMapas">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivityGoAntiguas"
+            android:exported="true"
+            android:label="@string/title_activity_maps_go_antiguas" />
+        <activity
+            android:name=".MapsActivityGoModernas"
+            android:exported="true"
+            android:label="@string/title_activity_maps_go_modernas" />
+        <activity
+            android:name=".MapsActivityGo"
+            android:exported="true"
+            android:label="@string/title_activity_maps_go" />
+        <activity
+            android:name=".Saqsaywaman"
+            android:exported="true" />
+        <activity
+            android:name=".Moray"
+            android:exported="true" />
+        <activity
+            android:name=".Plazadearmas"
+            android:exported="true" />
+        <activity
+            android:name=".Artesania"
+            android:exported="true" />
+        <activity
+            android:name=".Coliseoromano"
+            android:exported="true" />
+        <activity
+            android:name=".Murallachina"
+            android:exported="true" />
+        <activity
+            android:name=".Chichenitza"
+            android:exported="true" />
+        <activity
+            android:name=".tajmahal"
+            android:exported="true" />
+        <activity
+            android:name=".Machupicchu"
+            android:exported="true" />
+        <activity
+            android:name=".Cristoredentor"
+            android:exported="true" />
+        <activity
+            android:name=".CiudaddePetra"
+            android:exported="true" />
+        <activity
+            android:name=".PiramidedeGiza"
+            android:exported="true" />
+        <activity
+            android:name=".TemplodeArtemiza"
+            android:exported="true" />
+        <activity
+            android:name=".Mausoleo"
+            android:exported="true" />
+        <activity
+            android:name=".JardinesdeBabilonia"
+            android:exported="true" />
+        <activity
+            android:name=".EstatuadeZeus"
+            android:exported="true" />
+        <activity
+            android:name=".FarodeAlejandria"
+            android:exported="true" />
+        <activity
+            android:name=".Colosoderodas"
+            android:exported="true" />
+        <activity
+            android:name=".Maravillasantiguas"
+            android:exported="true" />
+        <activity
+            android:name=".TuristeaCusco"
+            android:exported="true" />
+        <activity
+            android:name=".Maravillasmodernas"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
